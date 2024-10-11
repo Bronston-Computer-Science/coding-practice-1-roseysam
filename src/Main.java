@@ -10,6 +10,11 @@ public class Main {
         System.out.print("Enter a double");
         double myDouble = scanner.nextDouble();
 
+        int sum = myInt + (int) myDouble;
+        double product = myInt * myDouble;
+
         System.out.printf("you entered the integer: %d and the double: %.2f",myInt,myDouble);
+        System.out.printf("The sum is %d\n",sum);
+        System.out.printf("Their product is: %2f\n",product);
     }
 }
